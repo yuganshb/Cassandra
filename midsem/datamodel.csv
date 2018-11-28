@@ -1,0 +1,14 @@
+CREATE TABLE midsem.table_query5 (
+    hashtag text,
+    date date,
+    tweet_count counter,
+    PRIMARY KEY (hashtag, date)
+) WITH CLUSTERING ORDER BY (date DESC)
+
+
+CREATE TABLE midsem.table_query8 (
+    date date,
+    hashtag_mention text,
+    PRIMARY KEY (date, hashtag_mention)
+) WITH CLUSTERING ORDER BY (hashtag_mention ASC)
+

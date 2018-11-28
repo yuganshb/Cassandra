@@ -1,0 +1,28 @@
+First run table_query5.py
+
+It will create a keyspace midsem and a table for query5.
+Also it will populate the table with entries.
+
+Now run table_query8.py
+
+This code will use same keyspace midsem and then create table for query8
+populating for entries
+
+---------------------------------Running Web Server ------------------------------
+
+First run hello.py
+
+And then open url given in terminal in some web browser.
+
+------------------------------ Output files -------------------------
+
+datamodel.csv contains description of tables.
+Output.csv contains output of both queries.
+
+------------------------- Packages Used------------------------
+
+Language used :- python
+
+Flask for connectivity with web browser.
+cassandra-driver for python to connect python and cassandra server
+datetime for time stamp conversion
